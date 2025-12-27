@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Sensitive files that should not be committed
+**/secrets/
+**/*secret*
+**/*credential*
+**/*key*
+.env
+.env.*
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Logs
+*.log
+
+# Personal configuration files with sensitive data
+# (Use the sanitized versions in zsh/ instead)
+.zshrc.personal
+.zshrc.local
